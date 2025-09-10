@@ -8,16 +8,50 @@ const User = require("./models/User");
 
 const app = express();
 
+const PORT = process.env.PORT || 5000;
+app.use(express.json());
 
-const port = process.env.PORT || 5000;
-
-app.use(express.json()); // To parse JSON bodies
+// FRONTEND URL (set this in Render as CLIENT_URL)
+// default to your local Vite dev URL for local testing
+const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5173";
 
 const corsOptions = {
-  origin: process.env.CLIENT_URL || "*", // set CLIENT_URL on Render later
-  credentials: true
+  origin: CLIENT_URL,                // allow only this origin
+  credentials: true,                 // allow cookies/withCredentials
+  methods: ["GET","POST","PUT","DELETE","OPTIONS"],
+  allowedHeaders: ["Content-Type","Authorization"]
 };
+
 app.use(cors(corsOptions));
+app.options("*", cors(corsOptions));  // enable preflight for all routes
+
+// optional: explicitly ensure the credential header is present
+app.use((req, res, next) => {
+  // Ensure the header exists and is "true" (should be handled by cors(), this is a safety net)
+  res.header("Access-Control-Allow-Credentials", "true");
+  next();
+});
+
+// const express = require("express");
+// const mongoose = require("mongoose");
+// const cors = require("cors");
+// require("dotenv").config();
+
+// const Product = require("./models/Products");
+// const User = require("./models/User");
+
+// const app = express();
+
+
+// const port = process.env.PORT || 5000;
+
+// app.use(express.json()); // To parse JSON bodies
+
+// const corsOptions = {
+//   origin: process.env.CLIENT_URL || "*", // set CLIENT_URL on Render later
+//   credentials: true
+// };
+// app.use(cors(corsOptions));
 
 //  Before Deploy
 // app.use(
