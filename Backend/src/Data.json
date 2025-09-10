@@ -1,0 +1,344 @@
+    [
+    {
+      "name": "HP Pavilion Laptop",
+      "price": 450,
+      "short_description": "15-inch screen, 8GB RAM, 256GB SSD, ideal for study and projects.",
+      "category": "Electronics",
+      "condition": "Very Good",
+      "history": "Used for one year during final year of college.",
+      "warranty": "No",
+      "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+    },
+    {
+      "name": "Introduction to Algorithms - 4th Edition",
+      "price": 30,
+      "short_description": "Comprehensive textbook for algorithms and data structures.",
+      "category": "Books",
+      "condition": "Good",
+      "history": "Used for one semester, minor annotations.",
+      "warranty": "No",
+      "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+    },
+    {
+      "name": "IKEA Study Desk",
+      "price": 75,
+      "short_description": "Compact wooden desk with a drawer, perfect for dorms.",
+      "category": "Furniture",
+      "condition": "Good",
+      "history": "Owned for 2 years, lightly used.",
+      "warranty": "No",
+      "image_url": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4"
+    },
+    {
+      "name": "Casio Scientific Calculator FX-991EX",
+      "price": 15,
+      "short_description": "Perfect for engineering and science students.",
+      "category": "Accessories",
+      "condition": "Like New",
+      "history": "Bought for a single math course.",
+      "warranty": "No",
+      "image_url": "https://images.unsplash.com/photo-1518972559570-7cc1309f3229"
+    },
+    {
+      "name": "Sony Noise-Canceling Headphones",
+      "price": 60,
+      "short_description": "Over-ear headphones with superior noise-canceling technology.",
+      "category": "Electronics",
+      "condition": "Very Good",
+      "history": "Used for online classes for 6 months.",
+      "warranty": "Yes",
+      "image_url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68"
+    },
+    {
+      "name": "Adjustable Ergonomic Chair",
+      "price": 100,
+      "short_description": "Comfortable chair with lumbar support, ideal for long study hours.",
+      "category": "Furniture",
+      "condition": "Good",
+      "history": "Owned for 3 years, minor scuff marks on armrests.",
+      "warranty": "No",
+      "image_url": "https://images.unsplash.com/photo-1596079890722-b8422a04c9b8"
+    },
+    {
+      "name": "Apple iPad Pro 11-inch (2020)",
+      "price": 550,
+      "short_description": "Perfect for note-taking and study apps, includes Apple Pencil.",
+      "category": "Electronics",
+      "condition": "Very Good",
+      "history": "Used during college for digital notes.",
+      "warranty": "No",
+      "image_url": "https://images.unsplash.com/photo-1517059224940-d4af9eec41eb"
+    },
+    {
+      "name": "Python Programming for Beginners",
+      "price": 20,
+      "short_description": "Introductory book for learning Python programming.",
+      "category": "Books",
+      "condition": "Like New",
+      "history": "Purchased for self-study, barely used.",
+      "warranty": "No",
+      "image_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba"
+    },
+    {
+      "name": "Lenovo Laptop Backpack",
+      "price": 25,
+      "short_description": "Waterproof laptop backpack with multiple compartments.",
+      "category": "Accessories",
+      "condition": "Good",
+      "history": "Owned for 2 semesters.",
+      "warranty": "No",
+      "image_url": "https://images.unsplash.com/photo-1526379095098-aa1c38806bb0"
+    },
+    {
+      "name": "Canon PIXMA Printer",
+      "price": 75,
+      "short_description": "All-in-one color printer, scanner, and copier.",
+      "category": "Electronics",
+      "condition": "Fair",
+      "history": "Used for printing assignments for 2 years.",
+      "warranty": "No",
+      "image_url": "https://images.unsplash.com/photo-1564869737121-e89f7c1677d2"
+    },
+    {
+      "name": "Whiteboard with Markers",
+      "price": 20,
+      "short_description": "Medium-sized whiteboard with 4 markers included.",
+      "category": "Accessories",
+      "condition": "Good",
+      "history": "Used for personal study sessions.",
+      "warranty": "No",
+      "image_url": "https://images.unsplash.com/photo-1573497491208-6b1acb260507"
+    },
+    {
+      "name": "Samsung Galaxy Tab A7",
+      "price": 250,
+      "short_description": "10.4-inch screen, great for reading and note-taking.",
+      "category": "Electronics",
+      "condition": "Very Good",
+      "history": "Used for 1 year during university.",
+      "warranty": "Yes",
+      "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+    },
+    {
+      "name": "Dell External Monitor 24-inch",
+      "price": 120,
+      "short_description": "Full HD monitor, perfect for multitasking.",
+      "category": "Electronics",
+      "condition": "Good",
+      "history": "Used as a second screen for coding projects.",
+      "warranty": "No",
+      "image_url": "https://images.unsplash.com/photo-1542272605-9e0a16bb7366"
+    },
+    {
+      "name": "Logitech Wireless Mouse M185",
+      "price": 10,
+      "short_description": "Compact and reliable wireless mouse for everyday use.",
+      "category": "Accessories",
+      "condition": "Like New",
+      "history": "Used for 3 months before upgrading.",
+      "warranty": "No",
+      "image_url": "https://images.unsplash.com/photo-1573497491208-6b1acb260507"
+    },
+    {
+      "name": "Organic Chemistry - 3rd Edition",
+      "price": 35,
+      "short_description": "Key textbook for organic chemistry courses.",
+      "category": "Books",
+      "condition": "Fair",
+      "history": "Heavily used during an organic chemistry class.",
+      "warranty": "No",
+      "image_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba"
+    },
+  {
+    "name": "Asus ROG Gaming Laptop",
+    "price": 750,
+    "short_description": "High-performance laptop for gaming and graphic design.",
+    "category": "Electronics",
+    "condition": "Very Good",
+    "history": "Used for game development projects during college.",
+    "warranty": "Yes",
+    "image_url": "https://images.unsplash.com/photo-1593642532400-2682810df593"
+  },
+  {
+    "name": "Digital Marketing Basics",
+    "price": 25,
+    "short_description": "Comprehensive guide to digital marketing strategies.",
+    "category": "Books",
+    "condition": "Good",
+    "history": "Used for a semester-long marketing course.",
+    "warranty": "No",
+    "image_url": "https://images.unsplash.com/photo-1581091870610-9b6b5a8e91e7"
+  },
+  {
+    "name": "Gaming Chair with Footrest",
+    "price": 150,
+    "short_description": "Ergonomic gaming chair with reclining and footrest features.",
+    "category": "Furniture",
+    "condition": "Like New",
+    "history": "Used for 6 months.",
+    "warranty": "No",
+    "image_url": "https://images.unsplash.com/photo-1616627452453-cd8a68455516"
+  },
+  {
+    "name": "Samsung Galaxy S10",
+    "price": 300,
+    "short_description": "High-end smartphone with excellent camera and performance.",
+    "category": "Electronics",
+    "condition": "Good",
+    "history": "Used for personal use for 2 years.",
+    "warranty": "No",
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+  },
+  {
+    "name": "Organic Chemistry Lab Kit",
+    "price": 40,
+    "short_description": "Complete lab kit for organic chemistry experiments.",
+    "category": "Accessories",
+    "condition": "Good",
+    "history": "Used for lab classes in university.",
+    "warranty": "No",
+    "image_url": "https://images.unsplash.com/photo-1580906855995-cd4c4c27a32d"
+  },
+  {
+    "name": "Mathematics for Machine Learning",
+    "price": 45,
+    "short_description": "Essential textbook for understanding ML algorithms.",
+    "category": "Books",
+    "condition": "Like New",
+    "history": "Used during an online ML course.",
+    "warranty": "No",
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+  },
+  {
+    "name": "Fujifilm X-T30 Camera",
+    "price": 700,
+    "short_description": "Mirrorless camera for photography enthusiasts.",
+    "category": "Electronics",
+    "condition": "Very Good",
+    "history": "Lightly used for capturing college events.",
+    "warranty": "Yes",
+    "image_url": "https://images.unsplash.com/photo-1494177310973-ff5ca7a37692"
+  },
+  {
+    "name": "Standing Desk Converter",
+    "price": 120,
+    "short_description": "Adjustable standing desk converter for healthier study habits.",
+    "category": "Furniture",
+    "condition": "Good",
+    "history": "Owned for 1 year, used occasionally.",
+    "warranty": "No",
+    "image_url": "https://images.unsplash.com/photo-1559223626-cd173c3b0854"
+  },
+  {
+    "name": "Gaming Keyboard (RGB)",
+    "price": 50,
+    "short_description": "Mechanical RGB keyboard with customizable lighting.",
+    "category": "Accessories",
+    "condition": "Like New",
+    "history": "Used for 3 months before upgrading.",
+    "warranty": "No",
+    "image_url": "https://images.unsplash.com/photo-1580894908362-bf7d8f6e5f52"
+  },
+  {
+    "name": "Mechanical Engineering Handbook",
+    "price": 60,
+    "short_description": "Reference book for mechanical engineering concepts.",
+    "category": "Books",
+    "condition": "Fair",
+    "history": "Owned for 4 years, heavily used during projects.",
+    "warranty": "No",
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+  },
+  {
+    "name": "GoPro HERO 8 Black",
+    "price": 250,
+    "short_description": "Waterproof action camera for outdoor adventures.",
+    "category": "Electronics",
+    "condition": "Good",
+    "history": "Used for 1 year during hiking trips.",
+    "warranty": "No",
+    "image_url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68"
+  },
+  {
+    "name": "Folding Study Table",
+    "price": 45,
+    "short_description": "Compact folding table for small spaces.",
+    "category": "Furniture",
+    "condition": "Good",
+    "history": "Used during exams for extra workspace.",
+    "warranty": "No",
+    "image_url": "https://images.unsplash.com/photo-1616627452453-cd8a68455516"
+  },
+  {
+    "name": "Wireless Bluetooth Earbuds",
+    "price": 30,
+    "short_description": "Lightweight and compact Bluetooth earbuds.",
+    "category": "Accessories",
+    "condition": "Very Good",
+    "history": "Owned for 6 months, works perfectly.",
+    "warranty": "Yes",
+    "image_url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68"
+  },
+  {
+    "name": "Graphic Design for Beginners",
+    "price": 15,
+    "short_description": "Beginner's guide to graphic design principles.",
+    "category": "Books",
+    "condition": "Like New",
+    "history": "Used for a graphic design course.",
+    "warranty": "No",
+    "image_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba"
+  },
+  {
+    "name": "Dell Inspiron Laptop",
+    "price": 350,
+    "short_description": "14-inch laptop, perfect for assignments and web browsing.",
+    "category": "Electronics",
+    "condition": "Good",
+    "history": "Used for 3 years during college.",
+    "warranty": "No",
+    "image_url": "https://images.unsplash.com/photo-1593642532400-2682810df593"
+  },
+  {
+    "name": "Adjustable Bookshelf",
+    "price": 80,
+    "short_description": "Wooden bookshelf with adjustable shelves.",
+    "category": "Furniture",
+    "condition": "Good",
+    "history": "Owned for 2 years, lightly used.",
+    "warranty": "No",
+    "image_url": "https://images.unsplash.com/photo-1559223626-cd173c3b0854"
+  },
+  {
+    "name": "Raspberry Pi 4 Starter Kit",
+    "price": 60,
+    "short_description": "Perfect kit for learning electronics and coding.",
+    "category": "Electronics",
+    "condition": "Like New",
+    "history": "Used for a DIY project.",
+    "warranty": "No",
+    "image_url": "https://images.unsplash.com/photo-1564869737121-e89f7c1677d2"
+  },
+  {
+    "name": "Wireless Gaming Mouse",
+    "price": 35,
+    "short_description": "Ergonomic gaming mouse with customizable buttons.",
+    "category": "Accessories",
+    "condition": "Very Good",
+    "history": "Owned for 8 months.",
+    "warranty": "No",
+    "image_url": "https://images.unsplash.com/photo-1573497491208-6b1acb260507"
+  },
+  {
+    "name": "Advanced Chemistry Notes",
+    "price": 10,
+    "short_description": "Detailed handwritten notes on advanced chemistry topics.",
+    "category": "Books",
+    "condition": "Good",
+    "history": "Used for preparing competitive exams.",
+    "warranty": "No",
+    "image_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba"
+  }
+]
+
+  

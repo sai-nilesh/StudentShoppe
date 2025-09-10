@@ -1,0 +1,34 @@
+<>
+      <div className="relative">
+        <ul className="menu mt-3 inset-0 bg-opacity-50 text-gray-300 font-bold lg:menu-horizontal bg-base-700 rounded-box mb-7 z-50">
+          <li onClick={()=>HandleProduct()}>
+            <a>Sell Products</a>
+          </li>
+          <li>
+            <details className="group relative">
+              <summary className="cursor-pointer hover:text-gray-300">Category</summary>
+              <ul className="absolute left-0 bg-base-100 text-gray-300 p-2 rounded shadow-lg mt-1 group-open:block hidden z-50">
+                {categories.map((category) => (
+                  <li
+                    key={category}
+                    onClick={() => handleCategoryClick(category)}
+                    className="hover:bg-gray-700 p-1 rounded"
+                  >
+                    <a>{category}</a>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          </li>
+          <li>
+            <details className="group relative">
+              <summary className="cursor-pointer hover:text-gray-300">Sort By</summary>
+              <ul className="absolute left-0 bg-base-100 text-gray-300 p-2 w-32 rounded shadow-lg mt-1 group-open:block hidden z-50">
+                <li onClick={()=>handleSort("asend")} className="hover:bg-gray-700 p-1 rounded"><a>Price: Low-High</a></li>
+                <li onClick={()=>handleSort("desend")}  className="hover:bg-gray-700 p-1 rounded"><a>Price: High-Low</a></li>
+              </ul>
+            </details>
+          </li>
+          <li><a>Item 3</a></li>
+        </ul>
+      </div>
