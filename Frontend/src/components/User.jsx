@@ -60,10 +60,18 @@ const User = () => {
 
   const handleDelete = async (product) => {
     try {
+
+      const API_URL = import.meta.env.VITE_API_URL;
+
+await axios.delete(`${API_URL}/profile/${emailID}/product/${product._id}`, {
+  withCredentials: true,
+});
+
       // Send delete request to the backend to remove product
-      await axios.delete(`http://localhost:5000/profile/${emailID}/product/${product._id}`, {
-        withCredentials: true,
-      });
+      // Before deploy
+      // await axios.delete(`http://localhost:5000/profile/${emailID}/product/${product._id}`, {
+      //   withCredentials: true,
+      // });
 
       // Remove the product from the local state
       setProducts((prevProducts) =>

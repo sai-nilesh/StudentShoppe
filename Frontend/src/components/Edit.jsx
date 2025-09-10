@@ -53,8 +53,10 @@ const Edit = () => {
       onAuthStateChanged(auth, async (user) => {
         if (user) {
           // Send PUT request to update the product
+
+          const API_URL = import.meta.env.VITE_API_URL;
           const response = await axios.put(
-            `http://localhost:5000/profile/${user.email}/product/${product._id}`,
+            `${API_URL}/${user.email}/product/${product._id}`,
             formData,
             { withCredentials: true }
           );

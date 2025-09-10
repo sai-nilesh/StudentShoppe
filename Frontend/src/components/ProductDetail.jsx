@@ -13,9 +13,17 @@ const ProductDetail = () => {
   useEffect(() => {
     const fetchProductDetails = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/product/${id}`, {
-          withCredentials: true,
-        });
+
+        const API_URL = import.meta.env.VITE_API_URL;
+
+const response = await axios.get(`${API_URL}/product/${id}`, {
+  withCredentials: true,
+});
+
+        // Before
+        // const response = await axios.get(`http://localhost:5000/product/${id}`, {
+        //   withCredentials: true,
+        // });
         setProduct(response.data);
         console.log(product);
         

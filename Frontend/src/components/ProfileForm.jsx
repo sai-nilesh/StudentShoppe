@@ -52,13 +52,16 @@ const ProfileForm = () => {
       email: emailID, // Use the fixed email ID from Firebase
       products: products,
     };
-
+  
     try {
-      const response = await axios.post("http://localhost:5000/profile/post", profileData, {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      const API_URL = import.meta.env.VITE_API_URL;
+
+const response = await axios.post(`${API_URL}/profile/post`, profileData, {
+  headers: {
+    "Content-Type": "application/json",
+  },
+});
+
       console.log("Profile saved successfully:", response.data);
       alert("Product saved successfully");
       naviagte("/");

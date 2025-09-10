@@ -17,7 +17,8 @@ const ProductCards = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/profile", { withCredentials: true });
+      const API_URL = import.meta.env.VITE_API_URL;
+      const response = await axios.get(`${API_URL}/profile`, { withCredentials: true });
       const users = response.data;
 
       // Extract and merge products from all users
@@ -41,7 +42,7 @@ const ProductCards = () => {
       setFilteredProducts(filtered);
     }
   };
-
+    
   const handlePage = (product) => {
     navigate(`/product/${product._id}`, { state: { product } });
   };

@@ -8,15 +8,24 @@ const User = require("./models/User");
 
 const app = express();
 
-const port = 5000;
+
+const port = process.env.PORT || 5000;
+
 app.use(express.json()); // To parse JSON bodies
 
-app.use(
-  cors({
-    origin: "http://localhost:5173", // Replace with your frontend URL
-    credentials: true, // Allow credentials (cookies, authentication headers)
-  })
-);
+const corsOptions = {
+  origin: process.env.CLIENT_URL || "*", // set CLIENT_URL on Render later
+  credentials: true
+};
+app.use(cors(corsOptions));
+
+//  Before Deploy
+// app.use(
+//   cors({
+//     origin: "http://localhost:5173", // Replace with your frontend URL
+//     credentials: true, // Allow credentials (cookies, authentication headers)
+//   })
+// );
 
 main().catch((err) => console.log(err));
 

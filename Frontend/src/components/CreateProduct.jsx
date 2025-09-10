@@ -30,7 +30,8 @@ const CreateProduct= () => {
     console.log(formData); // Check the form data here
   
     try {
-      const response = await axios.post("http://localhost:5000/product/post", formData);
+      const API_URL = import.meta.env.VITE_API_URL;
+      const response = await axios.post(`${API_URL}/product/post`, formData);
       alert("Product created successfully!");
       setFormData({
         name: "",
